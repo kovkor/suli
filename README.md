@@ -15,6 +15,9 @@ Hiányzó számok beírása, hogy igaz legyen az egyenlet.
 ### muveleti-jelek.py
 Hiányzó műveleti jelek pótlása
 
+### nyitott-mondatok.py
+Nyitott mondatok gyakorlása relációkkal
+
 ## Követelmények
 
 - Python 3
@@ -83,6 +86,31 @@ python matek/alapmuveletek-egyenlet.py --max_result 20 --num_problems 50 --opera
 ```
 
 Ez a parancs 50 egyenletet generál, ahol az eredmények maximum 20 lehetnek, és az összes alapművelet megengedett.
+
+
+## nyitott-mondat.py
+Ez a script olyan nyitott mondat típusú feladatokat generál, ahol a keresett számok helyére különböző szimbólumok kerülnek, és az egyenlőtlenségek igazak maradnak. A feladatok generálása során a script figyel arra, hogy a megadott paraméterek szerint és a meghatározott maximális darabszámú érvényes eredménye legyen a feladatoknak.
+
+### Használat
+
+```sh
+python matek/nyitott-mondat.py --max_result 20 --num_problems 50 --max_valid_numbers 4
+```
+
+### Paraméterek
+
+- `--max_result`: Az egyenletek maximális eredménye (alapértelmezett: 20).
+- `--num_problems`: A generálandó feladatok száma (alapértelmezett: 50).
+- `--max_valid_numbers`: Az érvényes számok maximális száma (alapértelmezett: 4).
+
+### Példa
+
+```sh
+python python matek/nyitott-mondat.py --max_result 20 --num_problems 50 --max_valid_numbers 4
+```
+
+Ez a parancs 50 nyitott mondat típusú feladatot generál, ahol az eredmények összege maximum 20 lehet, és legfeljebb 4 érvényes szám lesz a keresett számok helyén.
+
 
 ## Kimenet
 
