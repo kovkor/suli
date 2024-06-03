@@ -59,7 +59,7 @@ def create_pdf(problems, filename="muveleti-jelek.pdf"):
         pdf.cell(90, 10, txt=col2[i], border=0)
         pdf.ln(10)
 
-    pdf.output('../generatedPdfs/'+filename)
+    pdf.output('generatedPdfs/'+filename)
 
 
 def main():
