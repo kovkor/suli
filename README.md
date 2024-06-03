@@ -43,7 +43,7 @@ Ez a script olyan feladatokat generál, ahol a műveleti jeleket (összeadás, k
 ### Használat
 
 ```sh
-python muveleti-jelek.py --max_result 20 --num_problems 50 --operations +,-,*,/
+python matek/muveleti-jelek.py --max_result 20 --num_problems 50 --operations +,-,*,/
 ```
 
 ### Paraméterek
@@ -55,7 +55,7 @@ python muveleti-jelek.py --max_result 20 --num_problems 50 --operations +,-,*,/
 ### Példa
 
 ```sh
-python muveleti-jelek.py --max_result 20 --num_problems 50 --operations +,-
+python matek/muveleti-jelek.py --max_result 20 --num_problems 50 --operations +,-
 ```
 
 Ez a parancs 50 feladatot generál, ahol az eredmény maximum 20 lehet, és csak összeadás és kivonás műveletek szerepelnek.
@@ -67,7 +67,7 @@ Ez a script olyan egyenleteket generál, ahol az egyik szám helyét kell kital�
 ### Használat
 
 ```sh
-python alapmuveletek-egyenlet.py --max_result 20 --num_problems 50 --operations +,-,*,/
+python matek/alapmuveletek-egyenlet.py --max_result 20 --num_problems 50 --operations +,-,*,/
 ```
 
 ### Paraméterek
@@ -79,7 +79,7 @@ python alapmuveletek-egyenlet.py --max_result 20 --num_problems 50 --operations 
 ### Példa
 
 ```sh
-python alapmuveletek-egyenlet.py --max_result 20 --num_problems 50 --operations +,-,*,/
+python matek/alapmuveletek-egyenlet.py --max_result 20 --num_problems 50 --operations +,-,*,/
 ```
 
 Ez a parancs 50 egyenletet generál, ahol az eredmények maximum 20 lehetnek, és az összes alapművelet megengedett.
