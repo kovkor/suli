@@ -86,7 +86,7 @@ Ez a parancs 50 egyenletet generál, ahol az eredmények maximum 20 lehetnek, é
 
 ## Kimenet
 
-Mindkét script egy PDF fájlt generál a generatedPdfs mappába, amely a megadott matematikai feladatokat tartalmazza.
+Minden script PDF fájloket generál a generatedPdfs mappába, amely a megadott feladatokat tartalmazza.
 
 ## Megjegyzések
 
