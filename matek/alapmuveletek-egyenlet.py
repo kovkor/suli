@@ -79,10 +79,10 @@ def create_pdf(problems, filename="alapmuveletek-egyenlet.pdf"):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate math problems PDF.')
-    parser.add_argument('--max_result', type=int, default=20, help='Maximum result of the operations.')
-    parser.add_argument('--num_problems', type=int, default=50, help='Number of problems to generate.')
-    parser.add_argument('--operations', type=str, default='+,-,*,/', help='Allowed operations separated by commas.')
+    parser = argparse.ArgumentParser(description='Alapműveletek gyakorlása a hiányzó számok megkeresésvel.')
+    parser.add_argument('--max_result', type=int, default=20, help='Eredmények maximális összege.')
+    parser.add_argument('--num_problems', type=int, default=50, help='Generálandó feladatok száma.')
+    parser.add_argument('--operations', type=str, default='+,-,*,/', help='Megengedett alapműveletek vesszővel elválasztva (+,-,*,/).')
 
     args = parser.parse_args()
 
