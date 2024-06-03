@@ -9,14 +9,14 @@ Ez a repository Python scripteket tartalmaz, amelyek feladatokat generálnak ál
 
 ## Matek
 
-### alapmuveletek_egyenlet.py
-Hiányzó számok beírása, hogy igaz legyen az egyenlet.
+- **matek/alapmuveletek_egyenlet.py**
+  - Hiányzó számok beírása, hogy igaz legyen az egyenlet.
 
-### muveleti-jelek.py
-Hiányzó műveleti jelek pótlása
+- **matek/muveleti-jelek.py**
+  - Hiányzó műveleti jelek pótlása
 
-### nyitott-mondatok.py
-Nyitott mondatok gyakorlása relációkkal
+- **matek/nyitott-mondat.py**
+  - Nyitott mondatok gyakorlása relációkkal
 
 ## Követelmények
 
@@ -106,7 +106,7 @@ python matek/nyitott-mondat.py --max_result 20 --num_problems 50 --max_valid_num
 ### Példa
 
 ```sh
-python python matek/nyitott-mondat.py --max_result 20 --num_problems 50 --max_valid_numbers 4
+python matek/nyitott-mondat.py --max_result 20 --num_problems 50 --max_valid_numbers 4
 ```
 
 Ez a parancs 50 nyitott mondat típusú feladatot generál, ahol az eredmények összege maximum 20 lehet, és legfeljebb 4 érvényes szám lesz a keresett számok helyén.
