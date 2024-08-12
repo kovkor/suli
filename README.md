@@ -22,7 +22,7 @@ Ez a repository Python scripteket tartalmaz, amelyek feladatokat generálnak ál
 
 - Python 3
 - fpdf könyvtár
-- FreeSans betűtípus (letölthető innen: [FreeSans](https://www.fontsquirrel.com/fonts/free-sans))
+- FreeSans betűtípus (letölthető innen: [FreeSans](https://font.download/font/freesans-2))
 
 ## Telepítés
 
