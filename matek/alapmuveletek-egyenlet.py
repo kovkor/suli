@@ -97,7 +97,7 @@ def main():
     create_pdf(problems)
 
     # Optionally, print solutions for reference
-    print("Solutions:")
+    print("Megoldások:")
     for solution in solutions:
         print(solution)
 
